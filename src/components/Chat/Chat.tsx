@@ -63,11 +63,9 @@ export default function Chat () {
                     {message.data}
                 </div>
                 <div className={styles.msgDate}>{date}</div>
+                <div className={styles.msgDate}>{author}</div>
             </div>
-            // </div>
-                // {/* <div key={index} className={styles.message} data-author={author}>
-                //     {message.data}
-                // </div> */}
+
         );
     });
     
